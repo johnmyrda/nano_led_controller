@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -524,7 +524,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="13" x="10.16" y="-7.62" drill="0.8"/>
 <pad name="14" x="12.7" y="-7.62" drill="0.8"/>
 <pad name="15" x="15.24" y="-7.62" drill="0.8"/>
-<pad name="16" x="15.24" y="7.62" drill="0.8"/>
 <pad name="17" x="12.7" y="7.62" drill="0.8"/>
 <pad name="18" x="10.16" y="7.62" drill="0.8"/>
 <pad name="19" x="7.62" y="7.62" drill="0.8"/>
@@ -534,8 +533,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="23" x="-2.54" y="7.62" drill="0.8"/>
 <pad name="24" x="-5.08" y="7.62" drill="0.8"/>
 <pad name="25" x="-7.62" y="7.62" drill="0.8"/>
-<pad name="26" x="-10.16" y="7.62" drill="0.8"/>
-<pad name="27" x="-12.7" y="7.62" drill="0.8"/>
 <pad name="28" x="-15.24" y="7.62" drill="0.8"/>
 <pad name="29" x="-17.78" y="7.62" drill="0.8"/>
 <pad name="30" x="-20.32" y="7.62" drill="0.8"/>
@@ -701,7 +698,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <wire x1="5.08" y1="25.4" x2="15.24" y2="25.4" width="0.254" layer="94"/>
 <wire x1="15.24" y1="25.4" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
-<pin name="D1/TX" x="-20.32" y="22.86" length="middle"/>
 <pin name="D0/RX" x="-20.32" y="20.32" length="middle"/>
 <pin name="!RESET@1" x="-20.32" y="17.78" length="middle" direction="in" function="dot"/>
 <pin name="GND@1" x="-20.32" y="15.24" length="middle" direction="pwr"/>
@@ -711,8 +707,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <pin name="D5/T1" x="-20.32" y="5.08" length="middle"/>
 <pin name="D6/AIN0" x="-20.32" y="2.54" length="middle"/>
 <pin name="D7/AIN1" x="-20.32" y="0" length="middle"/>
-<pin name="D8/CLK0" x="-20.32" y="-2.54" length="middle"/>
-<pin name="D9/OC1A" x="-20.32" y="-5.08" length="middle"/>
 <pin name="D10/OC1B/!SS" x="-20.32" y="-7.62" length="middle"/>
 <pin name="D11/MOSI" x="-20.32" y="-10.16" length="middle"/>
 <pin name="D12/MISO" x="-20.32" y="-12.7" length="middle"/>
@@ -879,7 +873,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <connect gate="G$1" pin="ADC7/A7" pad="11"/>
 <connect gate="G$1" pin="AREF" pad="3"/>
 <connect gate="G$1" pin="D0/RX" pad="17"/>
-<connect gate="G$1" pin="D1/TX" pad="16"/>
 <connect gate="G$1" pin="D10/OC1B/!SS" pad="28"/>
 <connect gate="G$1" pin="D11/MOSI" pad="29"/>
 <connect gate="G$1" pin="D12/MISO" pad="30"/>
@@ -889,8 +882,6 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <connect gate="G$1" pin="D5/T1" pad="23"/>
 <connect gate="G$1" pin="D6/AIN0" pad="24"/>
 <connect gate="G$1" pin="D7/AIN1" pad="25"/>
-<connect gate="G$1" pin="D8/CLK0" pad="26"/>
-<connect gate="G$1" pin="D9/OC1A" pad="27"/>
 <connect gate="G$1" pin="GND@1" pad="19"/>
 <connect gate="G$1" pin="GND@2" pad="14"/>
 <connect gate="G$1" pin="SCK/D13" pad="1"/>

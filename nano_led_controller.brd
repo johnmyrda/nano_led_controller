@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,7 +172,6 @@
 <pad name="13" x="10.16" y="-7.62" drill="0.8"/>
 <pad name="14" x="12.7" y="-7.62" drill="0.8"/>
 <pad name="15" x="15.24" y="-7.62" drill="0.8"/>
-<pad name="16" x="15.24" y="7.62" drill="0.8"/>
 <pad name="17" x="12.7" y="7.62" drill="0.8"/>
 <pad name="18" x="10.16" y="7.62" drill="0.8"/>
 <pad name="19" x="7.62" y="7.62" drill="0.8"/>
@@ -182,8 +181,6 @@
 <pad name="23" x="-2.54" y="7.62" drill="0.8"/>
 <pad name="24" x="-5.08" y="7.62" drill="0.8"/>
 <pad name="25" x="-7.62" y="7.62" drill="0.8"/>
-<pad name="26" x="-10.16" y="7.62" drill="0.8"/>
-<pad name="27" x="-12.7" y="7.62" drill="0.8"/>
 <pad name="28" x="-15.24" y="7.62" drill="0.8"/>
 <pad name="29" x="-17.78" y="7.62" drill="0.8"/>
 <pad name="30" x="-20.32" y="7.62" drill="0.8"/>
@@ -672,12 +669,12 @@ design rules under a new name.</description>
 <contactref element="VIN" pad="1"/>
 <contactref element="C1" pad="+"/>
 <contactref element="X1" pad="1"/>
-<contactref element="ARDUINO_NANO1" pad="15"/>
 <wire x1="29.845" y1="12.065" x2="30.012" y2="12.065" width="1.27" layer="1"/>
 <wire x1="29.845" y1="12.065" x2="29.845" y2="24.13" width="1.27" layer="1"/>
 <wire x1="6.35" y1="4.445" x2="25.146" y2="4.445" width="1.27" layer="1"/>
 <wire x1="25.146" y1="4.445" x2="29.845" y2="9.144" width="1.27" layer="1" curve="90"/>
 <wire x1="29.845" y1="9.144" x2="29.845" y2="12.065" width="1.27" layer="1"/>
+<contactref element="ARDUINO_NANO1" pad="15"/>
 </signal>
 <signal name="N$5">
 </signal>
